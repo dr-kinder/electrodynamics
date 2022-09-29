@@ -1,7 +1,7 @@
 Classical Electrodynamics
 =========================
 
-This is code repository for a classical electrodynamics course.
+This is a code repository for a classical electrodynamics course.
 
 If you are taking the course, you should ___fork___ this repository.  You will be able to edit the files in your own fork, but not the files in this repository.
 
