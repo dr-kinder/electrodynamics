@@ -1,0 +1,8 @@
+# Ignore temporary and inessential files.
+_*
+.ipynb_checkpoints
+*.swp
+*.pyc
+*.pdf
+*.jpg
+*.png
