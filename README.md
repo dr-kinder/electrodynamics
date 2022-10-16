@@ -55,3 +55,22 @@ week-02
 - volume integrals
 
 The functions are designed to be simple to read, use, and modify.
+
+
+Week 3
+------
+
+The files in this directory are
+
+```
+week-03/
+├── 05-equations-of-motion.ipynb
+└── 06-finite-element-method.ipynb
+```
+
+`05-equations-of-motion.ipynb` introduces methods for solving ordinary differential equations and computing the trajectories of charged particles using the Lorentz force law.
+
+`06-finite-element-method.ipynb` illustrates the use of [Gmsh](https://gmsh.info/), [FEniCSx](https://fenicsproject.org/), and [Multiphenicsx](https://github.com/multiphenics/multiphenicsx) to solve a problem in electrostatics via finite element analysis.  This notebook was written to run in CoLab.  It will install these three packages and dependencies within a CoLab session using the protocol described at [FEM on CoLab](https://fem-on-colab.github.io/index.html). It can be run in other Jupyter notebook environments, but the packages should be installed locally first.
+
+Notebook #6 was adapted from ["Solving the Poisson Equation"](https://jorgensd.github.io/dolfinx-tutorial/chapter1/fundamentals.html) in the FEniCSx tutorial.  Portions of the code (plotting and mesh generation) were also adapted from the [Multiphenicsx tutorials](https://github.com/multiphenics/multiphenicsx/tree/main/tutorials).
+
