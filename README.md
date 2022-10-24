@@ -74,3 +74,22 @@ week-03/
 
 Notebook #6 was adapted from ["Solving the Poisson Equation"](https://jorgensd.github.io/dolfinx-tutorial/chapter1/fundamentals.html) in the FEniCSx tutorial.  Portions of the code (plotting and mesh generation) were also adapted from the [Multiphenicsx tutorials](https://github.com/multiphenics/multiphenicsx/tree/main/tutorials).
 
+
+Week 4
+------
+
+The files in this directory are
+
+```
+week-04/
+├── 07-laplace-equation.ipynb
+└── 08-magnetic-fields.ipynb
+```
+
+Both notebooks illustrates the use of [Gmsh](https://gmsh.info/), [FEniCSx](https://fenicsproject.org/), and [Multiphenicsx](https://github.com/multiphenics/multiphenicsx) to solve problems in electrostatics and magnetostatics via finite element analysis.  The notebook are written to run in CoLab.  They will install these three packages and dependencies within a CoLab session using the protocol described at [FEM on CoLab](https://fem-on-colab.github.io/index.html). The notebooks can be run in other Jupyter notebook environments, but the packages should be installed locally first.
+
+`07-laplace-equation.ipynb` explores the effects of boundary conditions on the solution of Laplace's equation for a rectangular domain.
+
+`08-magnetic-fields.ipynb` explores the vector potential and magnetic fields in a coaxial cable with an iron ring.
+
+Notebook #8 was adapted from ["Electromagnetics example"](https://jorgensd.github.io/dolfinx-tutorial/chapter3/em.html#electromagnetics-example).
