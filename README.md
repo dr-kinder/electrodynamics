@@ -93,3 +93,22 @@ Both notebooks illustrates the use of [Gmsh](https://gmsh.info/), [FEniCSx](http
 `08-magnetic-fields.ipynb` explores the vector potential and magnetic fields in a coaxial cable with an iron ring.
 
 Notebook #8 was adapted from ["Electromagnetics example"](https://jorgensd.github.io/dolfinx-tutorial/chapter3/em.html#electromagnetics-example).
+
+
+Week 6
+------
+
+The files in this directory are
+
+```
+week-06
+└── 09-electromagnetic-waves.ipynb
+```
+
+`09-electromagnetic-waves.ipynb` explores plane wave solutions to Maxwell's equations in empty space using 3D plots and animations.
+
+To create the movie, `ffmpeg` is required.  This can be installed via `conda`:
+```
+conda install --channel conda-forge ffmpeg
+```
+The notebook will create 500 JPEG images and use `ffmpeg` to compile them into an `mp4` movie.  These files are not deleted automatically.
