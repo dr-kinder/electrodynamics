@@ -120,9 +120,16 @@ The files in this directory are
 
 ```
 week-08
-└── 10-diffusion-equation.ipynb
+├── 10-diffusion-equation.ipynb
+└── 11-wave-equation.ipynb
 ```
 
 `10-diffusion-equation.ipynb` introduces the quasi-static approximation and the diffusion equation in the context of electromagnetic fields in conductors.
 
+`11-wave-equation.ipynb` presents two methods for analyzing the wave equation: real time integration and plane wave analysis with the Helmholtz equation.
+
 The notebook is written for CoLab.  It requires `dolfinx`, `pyvista`, and `ffmpeg` to run.  It may not work in other Python environments.
+
+These simulations draw heavily on the wonderful materials available from the FEniCS project:
+- [The FEniCSx tutorial](https://jorgensd.github.io/dolfinx-tutorial/index.html)
+- [FEniCSx Tutorial @ FEniCS 2022](https://jorgensd.github.io/fenics22-tutorial/intro.html)
