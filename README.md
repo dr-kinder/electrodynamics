@@ -133,3 +133,16 @@ The notebook is written for CoLab.  It requires `dolfinx`, `pyvista`, and `ffmpe
 These simulations draw heavily on the wonderful materials available from the FEniCS project:
 - [The FEniCSx tutorial](https://jorgensd.github.io/dolfinx-tutorial/index.html)
 - [FEniCSx Tutorial @ FEniCS 2022](https://jorgensd.github.io/fenics22-tutorial/intro.html)
+
+
+
+Week 9
+------
+The files in this directory are
+
+```
+week-09
+└── 12-waveguides.ipynb
+```
+
+`12-waveguides.ipynb` explores electromagnetic fields in waveguides, following the analysis in Chapter 7 of _Cassical Electromagnetic Radiation_ by Heald and Marion.  There notebook will generate 3D field plots of TEM modes between parallel conducting plates and TE and TM modes for rectangular waveguides.
