@@ -146,3 +146,15 @@ week-09
 ```
 
 `12-waveguides.ipynb` explores electromagnetic fields in waveguides, following the analysis in Chapter 7 of _Cassical Electromagnetic Radiation_ by Heald and Marion.  There notebook will generate 3D field plots of TEM modes between parallel conducting plates and TE and TM modes for rectangular waveguides.
+
+
+Week 10
+-------
+The files in this directory are
+
+```
+week-10
+└── 13-sources-of-radiation.ipynb
+```
+
+`13-sources-of-radiation.ipynb` explores dipole radiation, following the analysis in Chapter 9 of _Cassical Electromagnetic Radiation_ by Heald and Marion.  There notebook will generate 2D field plots of of the radiation fields of linear and rotating electric dipoles.
